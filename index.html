@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil & Biologi Ikan Koki</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="jumbotron">
+        <h1>IKAN KOKI</h1>
+        <h2>Ikan unik yang hidup tanpa lambung</h2>
+      </div>
+
+      <nav class="dropdown">
+        <button class="dropdown-button">☰</button>
+        <ul class="dropdown-content">
+          <li><a href="#anatomi">Anatomi Umum</a></li>
+          <li><a href="#pencernaan">Sistem Pencernaan</a></li>
+          <li><a href="#insang">Insang</a></li>
+          <li><a href="#tips">Tips</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article class="goldfish-biology">
+        <div class="container">
+          <img src="assets/koki_biology.jpg" alt="anatomi koki" class="featured-image" />
+        </div>
+        <div class="flex-wrapper right">
+          <section id="anatomi" class="content">
+            <h3>Morfologi & Anatomi Umum</h3>
+            <p>
+              Ikan koki (Carassius auratus) adalah varietas hasil domestikasi dari ikan mas yang dikenal karena bentuk
+              tubuhnya yang membulat, sirip menjuntai, dan warna mencolok. Mereka memiliki variasi bentuk ekor seperti
+              ekor kipas, ekor rumbai, hingga ekor pita. Beberapa varietas juga memiliki modifikasi unik seperti mata
+              teleskop, kepala jenong (wen), atau tubuh tanpa sirip punggung.
+            </p>
+          </section>
+          <section class="floating-box rounded-rectangle-right">
+            <div>
+              <h2>Lalu bagaimana koki mencerna makanan?</h2>
+              <p>
+                Koki dapat mencerna makanannya menggunakan usunya yang melilit panjang. Dengan tersisinya makanan pada
+                usus
+              </p>
+            </div>
+            <img src="assets/intestines.png" alt="organ usus" />
+          </section>
+        </div>
+
+        <div class="flex-wrapper left">
+          <section id="pencernaan" class="content">
+            <h3>Sistem Pencernaan</h3>
+            <p>
+              Berbeda dari manusia, ikan koki tidak memiliki gigi di rahang—melainkan memiliki gigi faring yang terletak
+              jauh di tenggorokan. Gigi ini berfungsi menghancurkan makanan dan bisa copot serta tumbuh kembali secara
+              alami. Uniknya lagi, mereka juga tidak memiliki lambung, sehingga makanan harus diberikan dalam porsi
+              kecil agar mudah diserap oleh sistem pencernaannya dan tidak memengaruhi keseimbangan tubuhnya — makanan
+              mengembang berlebihan bisa menyebabkan ikan mengambang miring atau terbalik..
+            </p>
+          </section>
+
+          <section class="floating-box rounded-rectangle-left">
+            <img src="assets/swim_bladder.png" alt="organ swim bladder" />
+            <div>
+              <h2>Organ Renang (Swim Bladder)</h2>
+              <p>
+                Organ renang (swim bladder) adalah kantung berisi gas yang membantu ikan mengontrol posisi mengambang di
+                air. Pada ikan koki, bentuk tubuh pendek dan bulat membuat organ ini lebih rentan terganggu karena makan
+                berlebih.
+              </p>
+            </div>
+          </section>
+
+          <section id="insang" class="content">
+            <h3>Sistem Pernapasan dan Insang</h3>
+            <p>
+              Ikan koki bernapas dengan insang yang menyaring oksigen dari air. Mereka membutuhkan sirkulasi air yang
+              baik dan kadar oksigen terlarut yang cukup tinggi, terutama karena metabolisme ikan ini cukup aktif. Tanda
+              kekurangan oksigen meliputi sering naik ke permukaan dan bernapas cepat di dekat permukaan air.
+            </p>
+          </section>
+        </div>
+
+        <section class="content slider-rectangle">
+          <h3 id="tips">Berikut juga adalah tips dalam memelihara ikan Koki</h3>
+        </section>
+        <section id="slider">
+          <button id="prev">&lt;</button>
+          <div class="slider-content">
+            <article class="slide active">
+              <h2>AQUARIUM BERISI TANAMAN</h2>
+              <p>
+                karena koki sangat bisa menghasilkan jumlah amonia yang banyak, di dalam aquarium harus terdapat
+                tanaman. Hal ini dikarenakan tanaman dapat menyerap amonia(nitrat yakni hasil olahan bakteri) dari si
+                ikan. Tipsnya bisa pakai tanaman hias seperti sirih gading agar mudah di tanam.
+              </p>
+            </article>
+            <article class="slide">
+              <h2>BERI PAKAN DENGAN TAKARAN PAS</h2>
+              <p>
+                karena ikan koki tidak memiliki lambung, maka usus pada ikan koki harus tetap terisi agar dapat menyerap
+                nutrisi dari pakan. Tapi jangan sampai overfeeding karena juga bisa membuat sembelit karena penumpukan
+                gas dari hasil pengolahan makanan.
+              </p>
+            </article>
+            <article class="slide">
+              <h2>RENDAM PELET TERLEBIH DAHULU</h2>
+              <p>
+                Beri makan pelet yang sudah direndam, karena agar mengurangi udara yang ada pada pencernaan yang bisa
+                mengganggu si ikan. Gunakan pakan jenis selam kalau bisa.
+              </p>
+            </article>
+          </div>
+          <button id="next">&gt;</button>
+        </section>
+        <div class="container">
+          <aside>
+            <div id="profile">
+              <button id="buttonProfile">&lt;</button>
+              <article style="display: none">
+                <img src="assets/koki.jpg" alt="Foto ikan koki" />
+                <p>Hai, aku Fahmi👋</p>
+              </article>
+            </div>
+          </aside>
+        </div>
+        <section class="content slider-rectangle">
+          <p>Itulah konten tentang ikan koki yang bisa saya sajikan</p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2025 Fahmi Web & Aquatic Care</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
